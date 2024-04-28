@@ -37,7 +37,7 @@ margin: 0;
     
 }
 .animate{
-   animation: jump 400ms;
+   animation: jump 600ms;
 }
 #block{
     width: 30px;
@@ -61,8 +61,8 @@ margin: 0;
 
 @keyframes jump{
     0%{top: 140px;}
-    40%{top: 100px;}
-    60%{top: 100px;}
+    35%{top: 100px;}
+    65%{top: 100px;}
     100%{top: 140px;}
 }
 

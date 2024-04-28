@@ -9,7 +9,7 @@ function jump(){
     }
     setTimeout(function(){
         character.classList.remove("animate");
-    },400);
+    },600);
 }
 
 
