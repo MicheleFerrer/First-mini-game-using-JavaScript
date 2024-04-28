@@ -67,18 +67,12 @@ margin: 0;
 }
 
 .button-container{
-width: 50%;
-margin:auto;
-padding: 10px;
+width: fit-content;
+margin: auto;
 background-color: white;
 border: none;
-max-width:fit-content;
-contain: content;
-align-content: center;
 outline: none;
 text-decoration: none;
-
-    
 
 }
 
@@ -89,7 +83,6 @@ text-decoration: none;
     outline: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
-    align-content: center;
 
 }
 
@@ -108,11 +101,11 @@ a {
     text-decoration-color: rgb(255, 255, 255);
     padding: 10px 25px;
     border: none;
-    border-radius: 20px;
+    border-radius: 30px;
     outline: none;
-    box-shadow: 0 0 4px rgb(112, 112, 112);
+    box-shadow: 0 0 3px rgb(112, 112, 112);
     text-decoration: none;
-    margin: inherit;
+    
 }
 
 .button-container button:focus{
