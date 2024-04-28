@@ -23,6 +23,7 @@ margin: 0;
     height: 200px;
     border: 4px solid black;
     padding-top: 0px;
+    margin-bottom: 5%;
 }
 
 #character{
@@ -36,7 +37,7 @@ margin: 0;
     
 }
 .animate{
-   animation: jump 500ms;
+   animation: jump 400ms;
 }
 #block{
     width: 30px;
@@ -60,21 +61,24 @@ margin: 0;
 
 @keyframes jump{
     0%{top: 140px;}
-    35%{top: 100px;}
-    65%{top: 100px;}
+    40%{top: 100px;}
+    60%{top: 100px;}
     100%{top: 140px;}
 }
 
 .button-container{
-margin-top: 5%;
+
 padding: 10px;
 background-color: white;
 border: none;
 max-width:fit-content;
 contain: content;
-align-self: center;
+align-content: center;
 outline: none;
 text-decoration: none;
+width: 50%;
+margin:auto;
+    
 
 }
 
@@ -85,6 +89,7 @@ text-decoration: none;
     outline: none;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
+    align-content: center;
 
 }
 
@@ -94,6 +99,7 @@ a {
     container: fit-content;
     text-emphasis-color:none;
     outline: none;
+    align-content: center;
 
 }
 
@@ -107,6 +113,7 @@ a {
     outline: none;
     box-shadow: 0 0 4px rgb(112, 112, 112);
     text-decoration: none;
+    align-content: center;
     
 }
 
