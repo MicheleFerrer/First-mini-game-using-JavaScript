@@ -37,7 +37,7 @@ margin: 0;
     
 }
 .animate{
-   animation: jump 600ms;
+   animation: jump 500ms;
 }
 #block{
     width: 30px;
@@ -61,8 +61,8 @@ margin: 0;
 
 @keyframes jump{
     0%{top: 140px;}
-    35%{top: 100px;}
-    65%{top: 100px;}
+    35%{top: 90px;}
+    65%{top: 90px;}
     100%{top: 140px;}
 }
 
@@ -133,7 +133,7 @@ a {
 button:hover {
 cursor: pointer;
 contain: content;
-animation: pulse 4s infinite;
+animation: pulse 3s infinite;
 background-color: rgb(151, 189, 168);
 text-decoration: none;
 
